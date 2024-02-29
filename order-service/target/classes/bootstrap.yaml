@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: orderservice
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        namespace: d23b09e8-88d8-4cc7-b7ed-b5f900c9b6b3
+        cluster-name: HZ
+      config:
+        file-extension: yaml
+        namespace: d23b09e8-88d8-4cc7-b7ed-b5f900c9b6b3
