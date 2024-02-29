@@ -20,7 +20,7 @@ public class OrderApplication {
     }
 
 //    @Bean
-//    @LoadBalanced覆盖
+//    @LoadBalanced覆盖fds
 //    public RestTemplate restTemplate() {
 //        return new RestTemplate();
 //    }
